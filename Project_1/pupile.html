@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8">
+
+    <meta name="description" content="Odważ się wskoczyć do króliczej nory i odkryj ważne i ciekawe informacje o królikach.">
+    <meta name="keywords" content="królik, króliki">
+    <meta name="author" content="Tomasz Rączkowski">
+
+    <meta name="theme-color" content="#D3D3D3">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:title" content="Królicza nora">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.kroliczanora.pl">
+    <meta property="og:image" content="images/krolik1.jpg">
+
+    <title>Wasze pupile</title>
+
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body onload="showSlides()">
+    <header>
+        <nav class="mynav" id="mynav">
+            <a href="index.html">Strona główna</a>
+            <a href="pupile.html" class="active">Wasze pupile</a>
+            <a href="pytania.html">Wasze pytania</a>
+            <a href="fundacje.html">Polecane fundacje</a>
+            <a href="kontakt.html">Kontakt</a>
+            <a href="javascript:void(0);" class="icon" onclick="responsiveNav()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+
+        <div class="banner">
+            <img src="images/banner.webp" alt="baner">
+
+            <div>
+                <h1>Królicza nora</h1>
+                <h4>Wasze pupile</h4>
+            </div>
+        </div>
+    </header>
+
+    <br>
+
+    <h5 class="description">Pokaz slajdów z Waszymi uszakami :)</h5>
+
+    <br>
+
+    <div class="slides">
+        <div class="slide fade">
+            <img src="images/lwiatko.jpg" alt="królik 1">
+            <div class="text">Lwiątko</div>
+        </div>
+
+        <div class="slide fade">
+            <img src="images/pysia.jpg" alt="królik 2">
+            <div class="text">Pysia</div>
+        </div>
+
+        <div class="slide fade">
+            <img src="images/cynamon.jpg" alt="królik 3">
+            <div class="text">Cynamon</div>
+        </div>
+    </div>
+
+    <div class="dots">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+
+    <br>
+
+    <footer>
+        <p>&copy Tomasz Rączkowski, data ostatniej modyfikacji: listopad 2022</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
